@@ -1,4 +1,5 @@
 <?php
+use Drupal\Core\Installer\InstallerKernel;
 /**
  * @file
  * Platform.sh settings.
