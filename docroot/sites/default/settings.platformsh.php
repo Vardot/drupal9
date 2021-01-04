@@ -161,8 +161,8 @@ foreach ($platformsh->variables() as $name => $value) {
       break;
   }
 }
-//SOLR setup config https://docs.platform.sh/frameworks/drupal8/solr.html
-$platformsh = new \Platformsh\ConfigReader\Config();
+// SOLR setup config https://docs.platform.sh/frameworks/drupal8/solr.html
+/*$platformsh = new \Platformsh\ConfigReader\Config();
 if (!$platformsh->inRuntime()) {
   return;
 }
@@ -185,3 +185,4 @@ if ($platformsh->hasRelationship($relationship_name)) {
   // Set the connector configuration to the appropriate value, as defined by the formatter above.
   $config['search_api.server.' . $solr_server_name]['backend_config']['connector_config'] = $platformsh->formattedCredentials($relationship_name, 'drupal-solr');
 }
+*/
