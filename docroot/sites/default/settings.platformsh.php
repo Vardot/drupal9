@@ -160,13 +160,14 @@ foreach ($platformsh->variables() as $name => $value) {
       break;
   }
 }
-// SOLR setup config https://docs.platform.sh/frameworks/drupal8/solr.html
-/*
+
 $platformsh = new \Platformsh\ConfigReader\Config();
 if (!$platformsh->inRuntime()) {
   return;
 }
 
+// SOLR setup config https://docs.platform.sh/frameworks/drupal8/solr.html
+/*
 $platformsh->registerFormatter('drupal-solr', function($solr) {
     // Default the solr core name to `collection1` for pre-Solr-6.x instances.
     return [
