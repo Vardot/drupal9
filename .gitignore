@@ -7,11 +7,6 @@
 /docroot/profiles/contrib/
 /docroot/libraries/
 console/
-docroot/themes/custom/**/css/components/*.css
-docroot/themes/custom/**/css/plugins/*.css
-docroot/themes/custom/**/css/base/bootstrap.base.css
-docroot/themes/custom/**/css/rtl/base/vartheme_bs4-rtl.base.css
-docroot/themes/custom/**/css/theme/varbase-heroslider-media.theme.css
 
 # Ignore sensitive information
 /docroot/sites/*/settings.local.php
