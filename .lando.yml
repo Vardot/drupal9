@@ -23,6 +23,7 @@ services:
 #  solr:
 #    type: solr:8.6
 #    core: drupal-solr
+#    portforward: true
 #    config:
 #      dir: .platform/solr_8.x_config
 tooling:
