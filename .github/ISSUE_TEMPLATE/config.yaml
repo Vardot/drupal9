@@ -1,8 +1,0 @@
-blank_issues_enabled: false
-contact_links:
-  - name: Community Support
-    url: https://www.drupal.org/project/issues/varbase
-    about: Please ask and answer questions here.
-  - name: Join Our Slack Team for Feedback and Support
-    url: http://slack.varbase.vardot.com/
-    about: Ping the Varbase `#development`!
